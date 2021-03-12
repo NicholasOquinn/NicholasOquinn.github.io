@@ -1,0 +1,50 @@
+:root {
+
+    /*CSS variable*/
+    --list-fontcolor: rgb(0, 14, 202);
+
+  }
+#header-text{ 
+
+    /*Use of hex for color*/
+    color:#08C;
+
+    border-color: black;
+    border-style: solid;
+    border-width: 6px;
+    /*Use of Padding*/
+    padding: 20px 40px 40px 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+}
+#leafs-logo{
+    width:25%;
+    border-width: 10px;
+
+    /*Use of rgb*/
+    border-color: rgb(0, 33, 123);
+
+    border-style: dotted;
+}
+h2{
+    /* Relative units */
+    border-width: 6rem; 
+
+    border-color: aqua;
+    border-style: groove;
+
+    /* Use of margins */
+    margin: 20px 20px;
+
+    border-radius: 2em; 
+    font-size: 4rem;
+}
+.player-list{
+
+    /* Calling on the CSS variable */
+    color: var(--list-fontcolor); 
+}
+
+
+
+
